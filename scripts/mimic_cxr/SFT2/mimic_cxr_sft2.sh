@@ -23,4 +23,4 @@ CUDA_VISIBLE_DEVICES=0 python main_train_mrg_dpo_beta.py \
     --index 0 \
     --load_peft_1 /home/shilei/project/PromptMRG/results/MODPO/F1_10000/SFT1/model_best.pth \
     --load_peft_2 /home/shilei/project/PromptMRG/results/MODPO/GREEN_10000/SFT1/model_best.pth \
-    --load_pretrained /ssd/shilei/dataset/PromptMRG/model/model_best.pth
+    --load_pretrained /home/shilei/project/PromptMRG/results/MODPO/CliQ_10000/SFT1/model_best.pth
